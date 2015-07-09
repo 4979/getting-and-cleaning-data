@@ -14,11 +14,11 @@ This "README.md" file describes how "run_analysis.R" script works to analyse the
 
 **Step:01**
 
-unzip the data from given URL "https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip" and rename the folder with "data".
+  unzip the data from given URL "https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip" and rename the folder with "data".
 
 **Step:02**
 
-created one R script called run_analysis.R that does the following: 
+  created one R script called run_analysis.R that does the following: 
 
 1. Merges the training and the test sets to create one data set.
 2. Extracts only the measurements on the mean and standard deviation for each measurement. 
@@ -26,6 +26,6 @@ created one R script called run_analysis.R that does the following:
 4. Appropriately labels the data set with descriptive variable names. 
 5. From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 
-
+_Note_: Make sure the folder "data" and the run_analysis.R script are both in the current working directory.
 
 > Copyright © Prabhat Kumar, All Rights reserved.
