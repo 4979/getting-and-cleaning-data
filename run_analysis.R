@@ -1,7 +1,19 @@
 # Getting and Cleaning Data
-# @author : Prabhat Kumar
-# @date   : 09-July-2015
-# =========================
+# Johns Hopkins University - Data Science Specialization.
+# Course-Project: (40% of final grade)
+# =======================================================
+# @author		: Prabhat Kumar
+# @date 		: 11-July-2015
+#========================================================
+
+## To Set Working Directory.
+setwd("~/Desktop/Getting-and-Cleaning-Data/Course-Project")
+
+## Source of data for this project:
+## https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
+#========================================================
+# Analysis of Data
+#========================================================
 
 # Instructions:
 
