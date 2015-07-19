@@ -24,6 +24,31 @@ This **markdown** file describes the data, the variables, and any transformation
  7. Clean the activity names in the second column of *activity*. We first make all names to lower cases. If the name has an underscore between letters, we remove the underscore and capitalize the letter immediately after the underscore.  
  8. Transform the values of *joinLabel* according to the *activity* data frame.  
  9. Combine the *joinSubject*, *joinLabel* and *joinData* by column to get a new cleaned 10299x68 data frame, *cleanedData*. Properly name the first two columns, "subject" and "activity". The "subject" column contains integers that range from 1 to 30 inclusive; the "activity" column contains 6 kinds of activity names; the last 66 columns contain measurements that range from -1 to 1 exclusive.  
- 10. Write the *cleanedData* out to "merged_data.txt" file in current working directory.  
+ 10. Write the *cleanedData* out to ```"merged_data.txt"``` file in current working directory.  
  11. Finally, generate a second independent tidy data set with the average of each measurement for each activity and each subject. We have 30 unique subjects and 6 unique activities, which result in a 180 combinations of the two. Then, for each combination, we calculate the mean of each measurement with the corresponding combination. So, after initializing the *result* data frame and performing the two for-loops, we get a 180x68 data frame.
- 12. Write the *result* out to "data_with_means.txt" file in current working directory.
+ 12. Write the *result* out to ```"data_with_means.txt"``` file in current working directory.
+ 
+- To Test:
+  
+    ```data <- read.table("./data_with_means.txt")```
+  
+    ```data[1:12, 1:3]```
+
+- Result:
+```
+subject          activity tBodyAccMeanX
+1        1           walking     0.2773308
+2        1   walkingUpstairs     0.2554617
+3        1 walkingDownstairs     0.2891883
+4        1           sitting     0.2612376
+5        1          standing     0.2789176
+6        1            laying     0.2215982
+7        2           walking     0.2764266
+8        2   walkingUpstairs     0.2471648
+9        2 walkingDownstairs     0.2776153
+10       2           sitting     0.2770874
+11       2          standing     0.2779115
+12       2            laying     0.2813734
+```
+
+> Copyright © Prabhat Kumar, All Rights reserved.
