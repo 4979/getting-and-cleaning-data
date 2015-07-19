@@ -31,7 +31,7 @@ This "README.md" file describes how "run_analysis.R" script works to analyse the
 _Note_: Make sure the folder "data" and the run_analysis.R script are both in the current working directory.
 
 **Step:03**
-- Now, use ```sourcesource("run_analysis.R")``` command in RStudio from Console.
+- Now, use ```source("run_analysis.R")``` command in RStudio from Console.
 - After this, we will find two output files are generated in the current working directory:
   - merged_data.txt **(7.9 Mb)**: it contains a data frame called cleanedData with 10299*68 dimension.
   - data_with_means.txt **(220 Kb)**: it contains a data frame called result with 180*68 dimension.
